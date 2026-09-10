@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SwiftMind — Understand iOS. Don't just memorize it.</title>
+<meta name="description" content="SwiftMind is an offline-first iPhone and iPad app that teaches iOS concepts through structured, interactive content — diagrams, code, quizzes and interview questions instead of walls of text.">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="index.html">
+      <img src="assets/icon.png" alt="">
+      SwiftMind
+    </a>
+    <nav>
+      <a href="#concepts">Concepts</a>
+      <a href="#categories">Categories</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <img class="hero-icon" src="assets/icon.png" alt="The SwiftMind app icon">
+        <h1>SwiftMind</h1>
+        <p class="tagline">Understand iOS. Don't just memorize it.</p>
+        <p class="lede">
+          An offline-first learning app for iPhone and iPad that teaches iOS
+          concepts the way they actually work — explanation, analogy, diagram,
+          code, and a question that checks whether it landed.
+        </p>
+        <p><span class="badge">Coming to the App Store</span></p>
+        <p class="platforms">iPhone &amp; iPad · Works fully offline · No account</p>
+      </div>
+      <div class="device">
+        <img src="assets/shots/home.png" width="285" height="620"
+             alt="The SwiftMind home screen, showing today's review queue and a continue-learning card.">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">The learning loop</p>
+      <h2>Six steps, every concept</h2>
+      <p class="lede">
+        Reading something once is not learning it. Every concept in SwiftMind
+        walks the same loop, so understanding is built and then tested rather
+        than assumed.
+      </p>
+      <ul class="loop">
+        <li>Learn</li>
+        <li>Understand</li>
+        <li>Visualize</li>
+        <li>Test</li>
+        <li>Recall</li>
+        <li>Apply</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="concepts">
+    <div class="wrap split">
+      <div class="prose">
+        <p class="eyebrow">Anatomy of a concept</p>
+        <h2>Not an article reader</h2>
+        <p class="lede">
+          A concept isn't a page of paragraphs. It's a sequence of typed
+          sections, each doing one job, each rendered differently — so you can
+          see the shape of an idea before you've finished reading it.
+        </p>
+        <ul class="anatomy">
+          <li>Simple explanation</li>
+          <li>Real-world analogy</li>
+          <li>Visual diagram</li>
+          <li>Code example</li>
+          <li>Common mistake</li>
+          <li>Under the hood</li>
+          <li>Quick check</li>
+          <li>Trivia</li>
+          <li>Interview question</li>
+          <li>Key takeaway</li>
+          <li>Related concepts</li>
+        </ul>
+      </div>
+      <div class="shots">
+        <div class="device">
+          <img src="assets/shots/concept.png" width="285" height="620"
+               alt="A concept screen broken into labelled sections: explanation, analogy and key takeaway.">
+        </div>
+        <div class="device">
+          <img src="assets/shots/diagram.png" width="285" height="620"
+               alt="A concept's visual diagram, drawing the relationship between objects as connected nodes.">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories">
+    <div class="wrap">
+      <p class="eyebrow">Five categories</p>
+      <h2>From the language up to the framework</h2>
+      <div class="grid">
+        <article class="card card--tinted" style="--tint:#F05138">
+          <h3>Swift</h3>
+          <p>The language itself — types, optionals, closures and protocols.</p>
+        </article>
+        <article class="card card--tinted" style="--tint:#5E5CE6">
+          <h3>Memory Management</h3>
+          <p>ARC, ownership, and the cycles that leak when ownership is unclear.</p>
+        </article>
+        <article class="card card--tinted" style="--tint:#0A84FF">
+          <h3>Concurrency</h3>
+          <p>async/await, actors, and the type system that makes data races a compile error.</p>
+        </article>
+        <article class="card card--tinted" style="--tint:#FF9F0A">
+          <h3>UIKit</h3>
+          <p>View controllers, events, and the framework SwiftUI still sits on top of.</p>
+        </article>
+        <article class="card card--tinted" style="--tint:#30D158">
+          <h3>SwiftUI</h3>
+          <p>Declarative views, state ownership, and how the framework decides what to redraw.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+
+      <div class="feature">
+        <div class="prose">
+          <p class="eyebrow">Learn</p>
+          <h2>Browse by category, or by how deep you want to go</h2>
+          <p>
+            Every concept is tagged beginner, intermediate, advanced or senior,
+            so the same catalogue works whether you're meeting optionals for the
+            first time or revisiting <code>Sendable</code> before an interview.
+          </p>
+        </div>
+        <div class="device">
+          <img src="assets/shots/learn.png" width="285" height="620"
+               alt="The Learn tab, listing concepts grouped by category with difficulty labels.">
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="prose">
+          <p class="eyebrow">Quiz</p>
+          <h2>Questions that explain themselves</h2>
+          <p>
+            Getting it wrong is the useful part. Every answer comes with the
+            reasoning, and what you miss comes back later on a spaced schedule
+            instead of disappearing.
+          </p>
+        </div>
+        <div class="device">
+          <img src="assets/shots/quiz.png" width="285" height="620"
+               alt="A quiz question with multiple choice answers and an explanation of the correct one.">
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="prose">
+          <p class="eyebrow">Interview</p>
+          <h2>Answers pitched at the level you're hiring into</h2>
+          <p>
+            Real iOS interview questions, banded junior through staff, each with
+            a model answer and the follow-up an interviewer would actually ask
+            next.
+          </p>
+        </div>
+        <div class="device">
+          <img src="assets/shots/interview.png" width="285" height="620"
+               alt="An interview question screen showing a model answer and the seniority band it targets.">
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="prose">
+          <p class="eyebrow">Code</p>
+          <h2>Syntax-highlighted Swift, in context</h2>
+          <p>
+            Code examples sit inside the concept that needs them, next to the
+            mistake they prevent — not in a separate snippet library you have to
+            go and find.
+          </p>
+        </div>
+        <div class="device">
+          <img src="assets/shots/code.png" width="285" height="620"
+               alt="A Swift code example rendered in a dark monospaced block inside a concept.">
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="prose">
+          <p class="eyebrow">Progress</p>
+          <h2>Your streak, your gaps, your review queue</h2>
+          <p>
+            Progress is tracked per concept and per category, so the app can
+            tell you what you've actually retained rather than how many screens
+            you've scrolled past.
+          </p>
+        </div>
+        <div class="device">
+          <img src="assets/shots/profile.png" width="285" height="620"
+               alt="The profile screen showing learning streak, mastered concepts and per-category progress.">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">In the first release</p>
+      <h2>By the numbers</h2>
+      <ul class="stats">
+        <li><strong>5</strong><span>Categories</span></li>
+        <li><strong>17</strong><span>Concepts</span></li>
+        <li><strong>51</strong><span>Quiz questions</span></li>
+        <li><strong>34</strong><span>Trivia facts</span></li>
+        <li><strong>17</strong><span>Interview questions</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">Private by design</p>
+      <h2>Nothing leaves your device</h2>
+      <p class="lede">
+        SwiftMind makes no network requests. There is no account, no analytics,
+        no third-party SDK, and no telemetry — the entire catalogue ships inside
+        the app, and your progress is stored on device and nowhere else. Offline
+        isn't a mode here; it's the only way it works.
+      </p>
+      <p><a href="privacy.html">Read the privacy policy</a></p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>© 2026 Mustafa Kamaal</span>
+    <nav>
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+      <a href="https://github.com/kamaal4/SwiftMind">GitHub</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>
